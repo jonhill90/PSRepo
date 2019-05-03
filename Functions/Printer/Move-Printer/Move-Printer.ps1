@@ -72,5 +72,3 @@ Function Move-Printer {
         Write-Log -Message 'No old Printers found.'
     }
 }
-
-Move-Printer -oldPrintServer 'essent-rad-dc01' -newPrintServer 'print-rad-prod' -LogDirectory "$env:SystemDrive\Windows\temp\PrinterMigration"
